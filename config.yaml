@@ -1,0 +1,51 @@
+# Configuration file for deep learning NLP experiments
+
+# Model configuration
+model:
+  name: "text_classifier"
+  type: "lstm"
+  vocab_size: 10000
+  embedding_dim: 100
+  hidden_dim: 256
+  output_dim: 2
+  n_layers: 2
+  bidirectional: true
+  dropout: 0.5
+
+# Training configuration
+training:
+  batch_size: 32
+  num_epochs: 10
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss_function: "cross_entropy"
+  device: "cuda"  # or "cpu"
+  seed: 42
+
+# Data configuration
+data:
+  train_path: "data/processed/train.csv"
+  val_path: "data/processed/val.csv"
+  test_path: "data/processed/test.csv"
+  max_length: 128
+  min_freq: 2
+  lowercase: true
+  remove_punctuation: false
+
+# Logging configuration
+logging:
+  log_dir: "logs"
+  tensorboard: true
+  save_best_model: true
+  checkpoint_dir: "checkpoints"
+  print_every: 100
+
+# Evaluation configuration
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+  save_predictions: true
+  predictions_path: "predictions.csv"
