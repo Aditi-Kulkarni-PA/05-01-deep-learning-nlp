@@ -1,9 +1,11 @@
 local:
+  base_path: "/Users/aditikulkarni/Documents/Masters/AI-Projects/04-ML-Models/deep-learning-nlp/"
   raw_data: "data/raw/"
   processed_data: "data/processed/"
   models: "models/"
 
 aws:
-  raw_data: "s3://ml-data-masters/04-ML-Models/data/raw/"
-  processed_data: "s3://ml-data-masters/04-ML-Models/data/processed/"
-  models: "s3://ml-data-masters/04-ML-Models/models/"
+  base_path: ".../04-ML-Models/deep-learning-nlp/"
+  raw_data: "s3://ml-data-masters/04-ML-Models/deep-learning-nlp/data/raw/"
+  processed_data: "s3://ml-data-masters/04-ML-Models/deep-learning-nlp/data/processed/"
+  models: "s3://ml-data-masters/04-ML-Models/deep-learning-nlp/models/"

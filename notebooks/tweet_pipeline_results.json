@@ -1,0 +1,582 @@
+[
+  {
+    "raw": "Just finished reading an amazing book on AI 🤖📚 #MachineLearning #AI.",
+    "normalized": "just finished reading an amazing book on ai  robot  books  #machinelearning #ai ",
+    "tokens": [
+      "just",
+      "finished",
+      "reading",
+      "an",
+      "amazing",
+      "book",
+      "on",
+      "ai",
+      "robot",
+      "books",
+      "#machinelearning",
+      "#ai"
+    ],
+    "filtered_tokens": [
+      "finished",
+      "reading",
+      "amazing",
+      "book",
+      "ai",
+      "robot",
+      "books",
+      "#machinelearning",
+      "#ai"
+    ],
+    "pos_tags": [
+      [
+        "finished",
+        "VBN"
+      ],
+      [
+        "reading",
+        "NN"
+      ],
+      [
+        "amazing",
+        "VBG"
+      ],
+      [
+        "book",
+        "NN"
+      ],
+      [
+        "ai",
+        "VBP"
+      ],
+      [
+        "robot",
+        "NN"
+      ],
+      [
+        "books",
+        "NNS"
+      ],
+      [
+        "#machinelearning",
+        "VBG"
+      ],
+      [
+        "#ai",
+        "NN"
+      ]
+    ],
+    "stems": {
+      "porter": [
+        "finish",
+        "read",
+        "amaz",
+        "book",
+        "ai",
+        "robot",
+        "book",
+        "#machinelearn",
+        "#ai"
+      ],
+      "snowball": [
+        "finish",
+        "read",
+        "amaz",
+        "book",
+        "ai",
+        "robot",
+        "book",
+        "#machinelearn",
+        "#ai"
+      ],
+      "lancaster": [
+        "fin",
+        "read",
+        "amaz",
+        "book",
+        "ai",
+        "robot",
+        "book",
+        "#machinelearning",
+        "#ai"
+      ]
+    },
+    "lemmas": [
+      "finish",
+      "reading",
+      "amaze",
+      "book",
+      "ai",
+      "robot",
+      "book",
+      "#machinelearning",
+      "#ai"
+    ],
+    "chunk_tree_str": "(S\n  finished/VBN\n  (NP reading/NN)\n  amazing/VBG\n  (NP book/NN)\n  ai/VBP\n  (NP robot/NN books/NNS)\n  (VP #machinelearning/VBG (NP #ai/NN)))",
+    "dependencies": [
+      [
+        "finished",
+        "reading",
+        "dobj"
+      ]
+    ],
+    "agreement": [
+      "No subject found"
+    ],
+    "srl": {
+      "theme": "reading"
+    }
+  },
+  {
+    "raw": "What a beautiful morning! ☀️ Feeling super motivated to start the day 💪 #GoodVibes",
+    "normalized": "what a beautiful morning   sun  feeling super motivated to start the day  strong  #goodvibes",
+    "tokens": [
+      "what",
+      "a",
+      "beautiful",
+      "morning",
+      "sun",
+      "feeling",
+      "super",
+      "motivated",
+      "to",
+      "start",
+      "the",
+      "day",
+      "strong",
+      "#goodvibes"
+    ],
+    "filtered_tokens": [
+      "beautiful",
+      "morning",
+      "sun",
+      "feeling",
+      "super",
+      "motivated",
+      "start",
+      "day",
+      "strong",
+      "#goodvibes"
+    ],
+    "pos_tags": [
+      [
+        "beautiful",
+        "JJ"
+      ],
+      [
+        "morning",
+        "NN"
+      ],
+      [
+        "sun",
+        "NN"
+      ],
+      [
+        "feeling",
+        "VBG"
+      ],
+      [
+        "super",
+        "NN"
+      ],
+      [
+        "motivated",
+        "VBD"
+      ],
+      [
+        "start",
+        "JJ"
+      ],
+      [
+        "day",
+        "NN"
+      ],
+      [
+        "strong",
+        "JJ"
+      ],
+      [
+        "#goodvibes",
+        "NNS"
+      ]
+    ],
+    "stems": {
+      "porter": [
+        "beauti",
+        "morn",
+        "sun",
+        "feel",
+        "super",
+        "motiv",
+        "start",
+        "day",
+        "strong",
+        "#goodvib"
+      ],
+      "snowball": [
+        "beauti",
+        "morn",
+        "sun",
+        "feel",
+        "super",
+        "motiv",
+        "start",
+        "day",
+        "strong",
+        "#goodvib"
+      ],
+      "lancaster": [
+        "beauty",
+        "morn",
+        "sun",
+        "feel",
+        "sup",
+        "mot",
+        "start",
+        "day",
+        "strong",
+        "#goodvibes"
+      ]
+    },
+    "lemmas": [
+      "beautiful",
+      "morning",
+      "sun",
+      "feel",
+      "super",
+      "motivate",
+      "start",
+      "day",
+      "strong",
+      "#goodvibes"
+    ],
+    "chunk_tree_str": "(S\n  (NP beautiful/JJ morning/NN sun/NN)\n  feeling/VBG\n  (NP super/NN)\n  (VP\n    motivated/VBD\n    (NP start/JJ day/NN)\n    (NP strong/JJ #goodvibes/NNS)))",
+    "dependencies": [
+      [
+        "feeling",
+        "sun",
+        "nsubj"
+      ],
+      [
+        "feeling",
+        "super",
+        "dobj"
+      ],
+      [
+        "morning",
+        "beautiful",
+        "amod"
+      ],
+      [
+        "day",
+        "start",
+        "amod"
+      ],
+      [
+        "#goodvibes",
+        "strong",
+        "amod"
+      ]
+    ],
+    "agreement": [
+      "Agreement heuristic OK"
+    ],
+    "srl": {
+      "agent": "sun",
+      "theme": "super",
+      "adjectives": [
+        "beautiful",
+        "start",
+        "strong"
+      ]
+    }
+  },
+  {
+    "raw": "Ugh...@user my laptop crashed again right before my deadline 😤 #MondayBlues",
+    "normalized": "ugh   @user my laptop crashed again right before my deadline  annoyed  #mondayblues",
+    "tokens": [
+      "ugh",
+      "@user",
+      "my",
+      "laptop",
+      "crashed",
+      "again",
+      "right",
+      "before",
+      "my",
+      "deadline",
+      "annoyed",
+      "#mondayblues"
+    ],
+    "filtered_tokens": [
+      "ugh",
+      "@user",
+      "laptop",
+      "crashed",
+      "right",
+      "deadline",
+      "annoyed",
+      "#mondayblues"
+    ],
+    "pos_tags": [
+      [
+        "ugh",
+        "IN"
+      ],
+      [
+        "@user",
+        "NNP"
+      ],
+      [
+        "laptop",
+        "NN"
+      ],
+      [
+        "crashed",
+        "VBD"
+      ],
+      [
+        "right",
+        "JJ"
+      ],
+      [
+        "deadline",
+        "NN"
+      ],
+      [
+        "annoyed",
+        "VBN"
+      ],
+      [
+        "#mondayblues",
+        "NNS"
+      ]
+    ],
+    "stems": {
+      "porter": [
+        "ugh",
+        "@user",
+        "laptop",
+        "crash",
+        "right",
+        "deadlin",
+        "annoy",
+        "#mondayblu"
+      ],
+      "snowball": [
+        "ugh",
+        "@user",
+        "laptop",
+        "crash",
+        "right",
+        "deadlin",
+        "annoy",
+        "#mondayblu"
+      ],
+      "lancaster": [
+        "ugh",
+        "@user",
+        "laptop",
+        "crash",
+        "right",
+        "deadlin",
+        "annoy",
+        "#mondayblues"
+      ]
+    },
+    "lemmas": [
+      "ugh",
+      "@user",
+      "laptop",
+      "crash",
+      "right",
+      "deadline",
+      "annoy",
+      "#mondayblues"
+    ],
+    "chunk_tree_str": "(S\n  (PP ugh/IN (NP @user/NNP laptop/NN))\n  crashed/VBD\n  (NP right/JJ deadline/NN)\n  (VP annoyed/VBN (NP #mondayblues/NNS)))",
+    "dependencies": [
+      [
+        "crashed",
+        "laptop",
+        "nsubj"
+      ],
+      [
+        "crashed",
+        "deadline",
+        "dobj"
+      ],
+      [
+        "deadline",
+        "right",
+        "amod"
+      ]
+    ],
+    "agreement": [
+      "Agreement heuristic OK"
+    ],
+    "srl": {
+      "agent": "laptop",
+      "theme": "deadline",
+      "adjectives": [
+        "right"
+      ]
+    }
+  },
+  {
+    "raw": "brb grabbing some ☕️ lol can’t start work without caffeine 😂",
+    "normalized": "be right back grabbing some  coffee  laughing out loud can not start work without caffeine  laugh ",
+    "tokens": [
+      "be",
+      "right",
+      "back",
+      "grabbing",
+      "some",
+      "coffee",
+      "laughing",
+      "out",
+      "loud",
+      "can",
+      "not",
+      "start",
+      "work",
+      "without",
+      "caffeine",
+      "laugh"
+    ],
+    "filtered_tokens": [
+      "right",
+      "back",
+      "grabbing",
+      "coffee",
+      "laughing",
+      "loud",
+      "start",
+      "work",
+      "without",
+      "caffeine",
+      "laugh"
+    ],
+    "pos_tags": [
+      [
+        "right",
+        "RB"
+      ],
+      [
+        "back",
+        "RB"
+      ],
+      [
+        "grabbing",
+        "VBG"
+      ],
+      [
+        "coffee",
+        "NN"
+      ],
+      [
+        "laughing",
+        "VBG"
+      ],
+      [
+        "loud",
+        "JJ"
+      ],
+      [
+        "start",
+        "NN"
+      ],
+      [
+        "work",
+        "NN"
+      ],
+      [
+        "without",
+        "IN"
+      ],
+      [
+        "caffeine",
+        "NN"
+      ],
+      [
+        "laugh",
+        "NN"
+      ]
+    ],
+    "stems": {
+      "porter": [
+        "right",
+        "back",
+        "grab",
+        "coffe",
+        "laugh",
+        "loud",
+        "start",
+        "work",
+        "without",
+        "caffein",
+        "laugh"
+      ],
+      "snowball": [
+        "right",
+        "back",
+        "grab",
+        "coffe",
+        "laugh",
+        "loud",
+        "start",
+        "work",
+        "without",
+        "caffein",
+        "laugh"
+      ],
+      "lancaster": [
+        "right",
+        "back",
+        "grab",
+        "coff",
+        "laugh",
+        "loud",
+        "start",
+        "work",
+        "without",
+        "caffein",
+        "laugh"
+      ]
+    },
+    "lemmas": [
+      "right",
+      "back",
+      "grab",
+      "coffee",
+      "laugh",
+      "loud",
+      "start",
+      "work",
+      "without",
+      "caffeine",
+      "laugh"
+    ],
+    "chunk_tree_str": "(S\n  right/RB\n  back/RB\n  grabbing/VBG\n  (NP coffee/NN)\n  (VP\n    laughing/VBG\n    (NP loud/JJ start/NN work/NN)\n    (PP without/IN (NP caffeine/NN laugh/NN))))",
+    "dependencies": [
+      [
+        "grabbing",
+        "coffee",
+        "dobj"
+      ],
+      [
+        "start",
+        "loud",
+        "amod"
+      ]
+    ],
+    "agreement": [
+      "No subject found"
+    ],
+    "srl": {
+      "theme": "coffee",
+      "adjectives": [
+        "loud"
+      ]
+    }
+  }
+]
